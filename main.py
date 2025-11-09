@@ -144,7 +144,7 @@ def main():
     counterExample = primeBDD & ~existsEvenReachable
 
     StatementA = counterExample.is_zero()
-    print('\nStatementA (for each prime u, exists even v reachable in positive even steps):', StatementA)
+    print('\nStatementA:', StatementA)
 
 
 if __name__ == "__main__":
